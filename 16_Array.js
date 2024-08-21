@@ -19,13 +19,14 @@
 
 // 3-1. push
 // 배열 추가
-// let fruits = ["사과", " 바나나"];
 
+// let fruits = ["사과", " 바나나"];
 // fruits.push("오렌지");
 // console.log(fruits); // [ '사과', ' 바나나', '오렌지' ]
 
 // 3-2. pop
 // 배열의 마지막 요소를 삭제
+
 // let fruits = ["사과", " 바나나"];
 
 // fruits.pop();
@@ -33,6 +34,7 @@
 
 // 3-3. shift
 // 배열의 첫 번째 요소를 삭제
+
 // let fruits = ["사과", " 바나나", "키위"]; // [ ' 바나나', '키위' ]
 
 // fruits.shift();
@@ -40,15 +42,16 @@
 
 // 3-4.unshift
 // 배열의 맨 앞에 배열 추가
+
 // fruits.unshift("포도");
 // console.log(fruits); // [ '포도', '사과', ' 바나나', '오렌지' ]
 
 // 3-5. splice
-// let fruits = ["사과", "바나나", "오렌지"];
+// let fruits = ["사과", "바나나", "키위"];
 
-// fruits.splice(1, 1, "포도");
-// 시작위치, 삭제개수
-// console.log(fruits);   // ["사과", "포도", "오렌지"]
+// fruits.splice(0, 2, "포도");
+// 시작위치 0, 삭제개수 2;
+// console.log(fruits); // ["포도", "키위"]
 
 // 3-6. slice
 
@@ -59,8 +62,9 @@
 
 // console.log(slicedFruits);   // ["바나나"]
 //--------------------------------------------------------
+
 // 콜백 함수 사용
-//--------------------------------------------------------
+
 // (1) forEach,
 // 배열의 모든 요소를 출력
 // let numbers = [4, 1, 5, 4, 5];
@@ -78,16 +82,21 @@
 // console.log(newNumbers); // [ 8, 2, 10, 8, 10 ]
 
 // (3) filter
+// filter() 메소드는 배열의 각 요소에 대해 콜백 함수를 실행하고, 그 결과가 true인 요소만
+// 새로운 배열로 반환합니다.
+
+// let numbers = [4, 1, 5, 4, 5];
+
 // let filteredNumbers = numbers.filter(function (item) {
 //   return item !== 5; // [ 4, 1, 4 ]
 // });
 // console.log(filteredNumbers);
 
 // (4) find
-let numbers = [4, 1, 5, 4, 5];
+// let numbers = [4, 1, 5, 4, 5];
 
-let result = numbers.find(function (item) {
-  return item > 3;
-});
+// let result = numbers.find(function (item) {
+//   return item > 3;
+// });
 
-console.log(result); // 4
+// console.log(result); // 4

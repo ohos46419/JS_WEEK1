@@ -11,12 +11,13 @@
 
 // ; 중요 누락되지 않기
 
-// 배열과 for문은 짝꿍
+// 배열과 for문은 짝
 // const arr = ["one", "two", "three", "four", "five"];
 // for (let i = 0; i < arr.length; i++) {
 //   console.log(i);
 //   console.log(arr[i]);
 // }
+// 배열의 요소 개수만큼 반복하여 실행
 
 // ex : 0부터 10까지의 수 중에서 2의 배수만 console.log로 출력
 // for (let i = 0; i <= 10; i++) {
