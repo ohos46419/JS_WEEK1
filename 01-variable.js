@@ -22,9 +22,6 @@ console.log("var => ", myVar); // * Test 1
 myVar = "GoodBye1";
 console.log(myVar); // * GoodBye1
 
-// * var는 같은 이름의 변수를 여러 번 선언해도 오류가 발생하지 않고,
-// * 가장 마지막에 선언한 값으로 변수가 덮어씌워진다.
-
 console.log("--------------------------------------------");
 
 // * 2. let
@@ -51,5 +48,8 @@ console.log("const => ", myConst);
 // * (3) TypeError: Assignment to constant variable.at Object.<anonymous>
 
 // * 각 변수의 차이점
-// * (1) var와 let은 같은 이름의 변수를 두 번 선언하면 오류가 발생한다.
+// * (1) let과 const는 같은 이름의 변수를 두 번 선언하면 오류가 발생한다.
 // * (2) const로 선언하고 할당한 값은 재할당이 불가능하다.
+
+// * (3) var는 같은 이름의 변수를 여러 번 선언해도 오류가 발생하지 않고,가장 마지막에
+// * 선언한 값으로 변수가 덮어씌워진다.

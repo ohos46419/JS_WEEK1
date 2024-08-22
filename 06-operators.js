@@ -29,8 +29,8 @@ let x = 10;
 console.log(x); // 10
 
 // 6-2. 더하기 등호 연산자(+=)
-x += 5; // 15
-console.log(x);
+x += 5;
+console.log(x); // 15
 
 x += 5;
 console.log(x); // 20
@@ -47,7 +47,7 @@ console.log(x); // 두 식 모두 -10
 
 let a = 10;
 a *= 2;
-console.log(a);
+console.log(a); // 20
 
 // ----------------------------------------------
 // 비교 연산자 (--> true 또는 false를 반환하는 연산자) *중요!
@@ -90,9 +90,13 @@ console.log(!a1); // false
 
 // 5. 삼항 연산자(중요!)
 // 조건에 따라 값을 선택한다
-let v = 10;
-let result = v > 5 ? "크다" : "작다";
-console.log(result); // 크다
+let age = 26;
+let result = age > 30 ? "연상" : "연하";
+console.log(result); // 연하
+
+// (1) age > 30, (2) "연상", (3) "연하"
+// 항이 3개이기에 삼항 연산자
+// 1번의 조건이 true이면 2번, false면
 
 let w = 20;
 let answer = w < 10 ? "작다" : "크다";

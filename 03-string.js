@@ -1,4 +1,4 @@
-// 2. 데이터 타입 [문자] : string(문자열 = 문자의 나열)
+// * 2. 데이터 타입 (문자) : string(문자열 = 문자의 나열)
 // ' ' = " "
 let str = "Hello, World!";
 
@@ -38,4 +38,4 @@ console.log(result2); // Hello, Javascript!
 // 2-6. 문자열 분할
 let str6 = "apple, banana, kiwi";
 let result02 = str6.split(",");
-console.log(result02); // [ 'apple', ' banana', ' kiwi' ]
+console.log(result02); //

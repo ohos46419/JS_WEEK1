@@ -1,4 +1,4 @@
-// * 데이터 타입
+// * 데이터 타입 (숫자)
 
 // * 코드를 작성할 때가 아닌, 실제 코드가 실행될 때 데이터 타입이 결정된다
 
@@ -30,7 +30,7 @@ let num5 = 1 / 0;
 console.log(num5); // Infinity
 console.log(typeof num5); // number
 
-// * 1-6 Infinity(무한대)
+// * 1-6 -Infinity(무한대2)
 let num6 = -1 / 0;
 console.log(num6); // -Infinity
 console.log(typeof num6); // number

@@ -1,8 +1,9 @@
 // 형 변환
-//형태 ->  바꾼다
+// 형태 ->  바꾼다
 // 명시적 형 변환, 암시적 형 변환
 
 // 1. 암시적
+// 의도 x, 자동으로 변환되는 것
 // 1-1. 문자열
 let result1 = 1 + "2"; // 숫자 + 문자
 console.log(result1); // 12
@@ -27,7 +28,7 @@ console.log(typeof result4); // number
 // +를 제외한 다른 연산자들은 숫자가 우선시 되어 변환
 
 // 2. 명시적 형 변환
-// 개발자가 직접 자료형을 변환하는 것
+// 개발자가 직접 의도적으로 자료형을 변환하는 것
 // 2-1. Boolean
 console.log(Boolean(0)); // 괄호안의 값을 Boolean 형태로 변환
 console.log(Boolean("")); // false
