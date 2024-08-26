@@ -18,6 +18,7 @@ for (let i = 0; i < 10; i++) {
 
 // 배열과 for문은 짝
 const arr = ["one", "two", "three", "four", "five"];
+
 for (let i = 0; i < arr.length; i++) {
   // console.log(i); // 0 1 2 3 4 // 5개
 
